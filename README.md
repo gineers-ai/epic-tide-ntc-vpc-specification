@@ -124,6 +124,7 @@ See [LICENSE.md](./LICENSE.md) for details.
 ## Contact
 
 **Author**: David Suh (INSEOK/SEO)  
+**Email**: david@gineers.ai  
 **Organization**: Gineers.ai  
 **Project**: EPIC-TIDE
 
