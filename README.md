@@ -1,96 +1,105 @@
-# EPIC-TIDE/NTC-VPC v2.0.0
+# EPIC-TIDE / NTC-VPC v2.0.0
 
 **Evidence-Powered Iterative Coordination through Tensor Intelligence-Driven Execution**
 
-A platform for autonomous AI coordination with GEM² mathematical foundation.
+A platform for autonomous AI coordination, operating within the **GEM² mathematical universe**.
 
 ---
 
 ## Overview
 
-EPIC-TIDE is a software development framework where AI actors autonomously execute development tasks within mathematically verifiable boundaries. It introduces a novel approach to human-AI collaboration based on formal specification and evidence-based progress tracking.
+**EPIC-TIDE** is an AI-native software development platform in which autonomous AI actors execute development tasks within formally defined and verifiable boundaries.
 
-### Core Innovation
-
-> *"Humans dream, AI delivers, Evidence decides"*
-
-- **GEM²** (Grounded Existence Matrix for Global Entropy Minimum) — Dual universe model for system completion verification
-- **T_AI** — AI as active motivator, replacing time-based scheduling with intelligence-driven execution
-- **NTC-VPC** — Unified specification (NTC) and execution (VPC) framework
+This repository contains the **public conceptual specification** of EPIC-TIDE and its **NTC-VPC protocol**, establishing priority, terminology, and design intent.  
+It is **not an implementation** and does not expose operational internals.
 
 ---
 
-## Key Concepts
-
-### The GEM² Universe
-
-Systems exist in two superimposed universes:
-
-| Universe | Type | Measures |
-|----------|------|----------|
-| **U_e** (Existence) | Binary | Topology — what paths exist |
-| **U_r** (Resistance) | Continuous | Entropy — friction/bugs in system |
-
-**System completion** = All required U_e exists ∧ All U_r converges to minimum
-
-### Framework Layers
+## Conceptual Stack (Read This First)
 
 ```
-┌─────────────────────────────────────┐
-│  NTC (Specification)                │
-│  • Notation — How to write          │
-│  • Topology — What structure        │
-│  • Contract — What agreement        │
-├─────────────────────────────────────┤
-│  VPC (Execution)                    │
-│  • Verification — Is it correct     │
-│  • Process — How to work            │
-│  • Coordination — Who does what     │
-├─────────────────────────────────────┤
-│  GEM² (Completion)                  │
-│  • Evidence-based progress          │
-│  • Entropy convergence metrics      │
-│  • Phase transition model           │
-└─────────────────────────────────────┘
+GEM² Universe   → Mathematical workspace (theory)
+EPIC-TIDE      → Autonomous AI development platform
+NTC-VPC        → Specification & execution protocol
 ```
 
-### Phase States
+- **GEM²** defines what it means for a system to exist, converge, and complete
+- **EPIC-TIDE** applies GEM² to AI-driven software construction
+- **NTC-VPC** defines how specifications are expressed and verified
 
-```
-CHAOS → STABILIZING → CRYSTALLIZING → GEM STATE
-  ☆         ∼              ◇            ◇
-```
+This separation is intentional and foundational.
 
 ---
 
-## Philosophy
+## Core Principle
 
-### Mandate vs Trajectory Separation
+> **“Humans dream, AI delivers, Evidence decides.”**
+
+EPIC-TIDE replaces time-based planning with **evidence-based convergence**.  
+Progress is determined by what is *proven*, not how long something took.
+
+---
+
+## Key Concepts (High Level)
+
+### GEM² (Mathematical Foundation)
+
+Systems are evaluated within two superimposed fields:
+
+| Field | Interpretation | Human-facing meaning |
+|------|---------------|----------------------|
+| **U_e** (Existence) | Discrete | What structure exists |
+| **U_r** (Resistance) | Continuous | Entropy, friction, bugs |
+
+**Completion condition**:  
+All required existence is present ∧ all resistance converges to minimum.
+
+> GEM² is defined formally in the GEM² Universe whitepaper.  
+> This README uses human-facing interpretations only.
+
+---
+
+### Mandate vs Trajectory
 
 | Mandate (M) | Trajectory (T) |
-|-------------|----------------|
-| Rigid Truth | Fluid Intelligence |
-| Human defines | AI decides |
-| WHAT must be true | HOW to achieve it |
-| Verified by evidence | Opaque to review |
+|------------|---------------|
+| WHAT must be true | HOW it was achieved |
+| Defined by humans | Decided by AI |
+| Formally verifiable | Opaque but reviewable via evidence |
+
+AI has autonomy **only within mandate boundaries**.
+
+---
 
 ### Evidence Replaces Time
 
 ```
-Traditional:   Progress = f(time)
-EPIC-TIDE:     Progress = f(Evidence)
+Traditional: Progress = f(time)
+EPIC-TIDE:   Progress = f(Evidence)
 ```
 
-Time estimation is obsolete. Only entropy reduction matters.
+Time estimates are irrelevant.  
+Only entropy reduction and verification matter.
+
+---
+
+## Phase Model
+
+```
+CHAOS → STABILIZING → CRYSTALLIZING → GEM STATE
+```
+
+These phases describe **convergence**, not workflow steps.
 
 ---
 
 ## Documentation
 
-| Document | Description |
-|----------|-------------|
-| [SPECIFICATION.md](./SPECIFICATION.md) | Full conceptual specification |
-| [LICENSE.md](./LICENSE.md) | CC BY-NC-ND 4.0 License |
+| Document | Purpose |
+|--------|--------|
+| `epic-tide-ntc-vpc-2-0-0-public.md` | Public conceptual specification |
+| `GEM²-UNIVERSE-whitepaper-public.md` | Formal mathematical workspace |
+| `LICENSE.md` | License terms |
 
 ---
 
@@ -103,27 +112,25 @@ EPIC-TIDE/MSF v4.2.3
       → EPIC-TIDE/NTC-VPC v2.0.0 (current)
 ```
 
-**Published**: December 2025
+Published: **December 2025**
 
 ---
 
 ## License
 
-This work is licensed under **CC BY-NC-ND 4.0** (Creative Commons Attribution-NonCommercial-NoDerivatives 4.0 International).
+This repository is licensed under **CC BY-NC-ND 4.0**.
 
-- ✓ Share with attribution
-- ✗ Commercial use prohibited
-- ✗ Derivatives prohibited
+- ✓ Attribution allowed  
+- ✗ Commercial use prohibited  
+- ✗ Derivatives prohibited  
 
-Full implementation details available under commercial license.
-
-See [LICENSE.md](./LICENSE.md) for details.
+Implementation, tooling, and platform internals are available under commercial license.
 
 ---
 
 ## Contact
 
-**Author**: David Suh (INSEOK/SEO)  
+**Author**: Inseok Seo (David Seo)  
 **Email**: david@gineers.ai  
 **Organization**: Gineers.ai  
 **Project**: EPIC-TIDE
@@ -132,16 +139,18 @@ See [LICENSE.md](./LICENSE.md) for details.
 
 ## Citation
 
-If referencing this work:
-
 ```
-Suh, David (INSEOK/SEO). "EPIC-TIDE/NTC-VPC v2.0.0: Platform for Autonomous 
-AI Coordination with GEM² Universe." Gineers.ai, December 2025.
+Seo, Inseok (David). “EPIC-TIDE / NTC-VPC v2.0.0:
+Platform for Autonomous AI Coordination within the GEM² Universe.”
+Gineers.ai, December 2025.
 ```
 
 ---
 
-*"NTC = What AI actors SEE"*  
-*"VPC = How AI actors WORK"*  
-*"T_AI = AI Interpolation on Multi-Tensor Space"*  
-*"GEM² = Grounded Existence Matrix for Global Entropy Minimum"*
+## Final Notes
+
+- GEM² = mathematical universe  
+- EPIC-TIDE = platform  
+- NTC-VPC = protocol  
+
+They are related — **not interchangeable**.
