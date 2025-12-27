@@ -1,34 +1,33 @@
 # License
 
-This work is licensed under the Creative Commons 
-Attribution-NonCommercial-NoDerivatives 4.0 International License.
+This work is licensed under the Creative Commons
+Attribution–NonCommercial–NoDerivatives 4.0 International License (CC BY-NC-ND 4.0).
 
-To view a copy of this license, visit:
+License deed (summary):
 https://creativecommons.org/licenses/by-nc-nd/4.0/
 
+Legal code (full text):
+https://creativecommons.org/licenses/by-nc-nd/4.0/legalcode
+
 ## You are free to:
+Share — copy and redistribute the material in any medium or format.
 
-**Share** — copy and redistribute the material in any medium or format
-
-The licensor cannot revoke these freedoms as long as you follow 
-the license terms.
+The licensor cannot revoke these freedoms as long as you follow the license terms.
 
 ## Under the following terms:
+Attribution — You must give appropriate credit, provide a link to the license,
+and indicate if changes were made.
 
-**Attribution** — You must give appropriate credit, provide a link 
-to the license, and indicate if changes were made.
+NonCommercial — You may not use the material for commercial purposes.
 
-**NonCommercial** — You may not use the material for commercial purposes.
-
-**NoDerivatives** — If you remix, transform, or build upon the material, 
+NoDerivatives — If you remix, transform, or build upon the material,
 you may not distribute the modified material.
 
 ## No additional restrictions
-
-You may not apply legal terms or technological measures that legally 
-restrict others from doing anything the license permits.
+You may not apply legal terms or technological measures that legally restrict
+others from doing anything the license permits.
 
 ---
 
-© 2025 David Seo (INSEOK/SEO), Gineers.ai
-All rights reserved under the terms of CC BY-NC-ND 4.0.
+© 2025 GEMsquared.ai (GEMSQUARED / GEM²). All rights reserved.
+Except as permitted under CC BY-NC-ND 4.0, no use is granted.
