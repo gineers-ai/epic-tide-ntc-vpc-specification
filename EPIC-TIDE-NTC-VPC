@@ -1,0 +1,159 @@
+# EPIC-TIDE / NTC-VPC v2.6.0
+
+**Public Specification (No‑IP‑Leak Edition)**
+**Date:** 27 December 2025
+**Publisher:** GEMsquared.ai
+
+> This public edition intentionally stays at the **conceptual and narrative layer**. It does **not** disclose internal math, symbols, thresholds, state machines, operator chains, data structures, or execution mechanics.
+
+---
+
+## 1. Overview
+
+**EPIC-TIDE** is a methodology for autonomous AI software development inside the **GEM² Universe**.
+
+**NTC-VPC** is the specification layer that defines the **verification boundaries**: what must be true, what evidence counts, and how completion is determined.
+
+This repository exists to establish **priority, terminology, and design intent**.
+
+---
+
+## 2. Why This Exists
+
+Autonomous development fails when systems cannot answer these questions in a verifiable way:
+
+* What, exactly, must be true?
+* What evidence proves it is true?
+* What remains uncertain or unstable?
+* When is the system “complete enough” to ship?
+
+EPIC-TIDE and NTC-VPC propose that autonomy should be governed by **evidence** and **bounded constraints**, not by time-based schedules or vague status reporting.
+
+---
+
+## 3. Core Principles
+
+### 3.1 Evidence over Time
+
+Progress is measured by **verifiable artifacts** (tests, checks, demonstrations, audits, reproducible results), not by effort or elapsed time.
+
+### 3.2 Mandate over Plan
+
+Humans define the **mandate** (what must be true). AI chooses the **trajectory** (how it gets there). The path is evaluated *after execution* through evidence.
+
+### 3.3 Bounded Autonomy
+
+Autonomy is granted only inside explicit boundaries:
+
+* constraints
+* acceptance criteria
+* allowed interfaces
+* safety and security conditions
+
+### 3.4 Completion by Tolerance
+
+Completion is defined as:
+
+* the mandate is satisfied, and
+* remaining uncertainty/instability is below an acceptable tolerance
+
+This enables shipping real systems without claiming perfection.
+
+---
+
+## 4. Conceptual Model (Public)
+
+### 4.1 Two Concurrent Views
+
+GEM² uses two concurrent views of a system:
+
+* **Verified reality**: what is demonstrated to work and can be relied on
+* **Residual resistance**: what still fails, degrades, remains unknown, or creates risk
+
+Both are tracked simultaneously to avoid “false confidence” and to make remaining work explicit.
+
+### 4.2 Autonomy Gate
+
+A one-way boundary separates:
+
+* **before-gate:** mandate + constraints + acceptance criteria are defined
+* **after-gate:** AI executes autonomously; humans review evidence
+
+This prevents endless goal-post shifting and keeps autonomy bounded.
+
+### 4.3 Bounded Decomposition
+
+Large systems are decomposed into bounded components and bounded dependency maps so that:
+
+* humans can audit structure
+* AI can execute without collapsing into global complexity
+
+---
+
+## 5. NTC-VPC (What It Ensures)
+
+NTC-VPC formalizes the minimum guarantees needed for autonomous execution:
+
+* **Provability:** every claimed progress point must be supported by evidence
+* **Traceability:** every output is traceable to an explicit mandate and evidence record
+* **Verifiable completion:** the system can assert completion under defined tolerance
+
+This public edition does not disclose the internal representation of these guarantees.
+
+---
+
+## 6. What This Repo Is / Is Not
+
+### This repo **is**
+
+* a public conceptual specification
+* a terminology and naming anchor
+* a design-intent record
+
+### This repo **is not**
+
+* an implementation
+* a release of private thresholds or internal states
+* a disclosure of internal operators, data models, or orchestration logic
+* a guide to reproduce the internal execution engine
+
+---
+
+## 7. Trademark Notice
+
+* **GEM²** and **GEMSQUARED** are trademarks/service marks used in connection with GEMsquared.ai’s products and services.
+* **EPIC-TIDE** and **NTC-VPC** are methodology/specification names used to describe conceptual layers and are not presented as standalone product names.
+* All other names and logos may be trademarks of their respective owners.
+
+---
+
+## 8. License
+
+This repository/documentation is released for **public exposition and priority establishment**.
+
+* No commercial rights are granted.
+* Implementation, tooling, and derivative platform architectures are reserved.
+
+(Choose and insert your final license text here if you want an explicit license file.)
+
+---
+
+## 9. Document Control
+
+| Version |        Date | Notes                                              |
+| ------- | ----------: | -------------------------------------------------- |
+| v2.6.0  | 27 Dec 2025 | Public edition with “no‑IP‑leak” disclosure policy |
+
+---
+
+## 10. Citation
+
+```
+Seo, Inseok (David).
+“EPIC-TIDE / NTC-VPC v2.6.0 — Public Specification (No‑IP‑Leak Edition).”
+GEMsquared.ai, 27 December 2025.
+```
+
+---
+
+© 2025 GEMsquared.ai. All rights reserved.
